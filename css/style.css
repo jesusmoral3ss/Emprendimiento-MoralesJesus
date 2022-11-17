@@ -4,49 +4,33 @@
     font-family: poppings;
 }
 
-header{
-    background-color: #DA5552;
-    height: 70px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-}
-
-header nav{
-    display: flex;
-    align-items: center;
-}
-
-header nav ul{
-    display: flex;
-    list-style-type: none;
-    flex-direction: row;
-    font-size: 20px;
-}
-
-header nav li a{
-    text-decoration: none;
-    color: white;
-    padding: 0px 12px;
-}
-header nav li a:hover{
-    color: rgb(0, 0, 0);
-}
-.tab-nav:hover{
-    transform: translateY(-2px);
-    transition: all 0.4 ease;
-}
-
 body{
     background-color: #E4B1AB;
+}
+
+.container-fluid{
+    background-color: #CC444B;
+}
+
+
+.navbar-toggler{
+    border: 0px;
+}
+
+.nav-link{
+    color: black;
+}
+
+.nav-link:hover{
+    transform: translateY(-2px);
+    transition: all 0.4 ease;
 }
 
 h1{
     font-size: 40px;
     margin: 20px;
-
 }
+
 .foto1{
     background-image:./assets/df.jpg;
     height: 90vh;
@@ -57,7 +41,7 @@ h1{
 .descripcion{
     font-size: 22px;
     padding: 75px;
-    width: 80%;
+    flex-basis: 80%;
     margin: 50px;
     margin-left: 100px;
     color: rgb(255, 255, 255);
@@ -68,12 +52,12 @@ h1{
     margin: 20px 40px;
     font-size: 45px;
 }
-.footer1{
+footer{
     font-size: 25px;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: rgb(255, 255, 255);
+    background-color: #E4B1AB;
 }
 
 
@@ -87,6 +71,17 @@ Sobre Nosotros
     text-align: right;   
 }
 
+.footer1{
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #E4B1AB;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
 main h1{
     display: flex;
     flex-direction: row;
@@ -98,6 +93,7 @@ div .pack1 .pack2 .pack3{
     justify-content: space-between;
 
 }
+
 
 .pack1{
     font-size: 22px;
@@ -182,22 +178,60 @@ section{
     justify-content: center;
 }
 
-footer{
-    font-size: 20px;
-    margin: 25px;
-    margin-left: 100px;
-}
+
 
 @media (max-width:767px){
-    header{
-        flex-direction: column;
-        height: auto;
-        align-items: center;
+    .foto1{
+        height: 25vh;
+    }
+}
+
+
+@media (max-width:767px){
+    .titulo{
+        margin: 10px 20px;
+        font-size: 30px;
+        text-align: center;
     }
 
-    header nav ul{
-        font-size: 12px;
-    h1{
-        font-size: 40px;
+    .descripcion p{
+        font-size: 16px;
+        display: grid;
+        grid-template-columns: 350px
+        }
+
+    section{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    
+    .titulo{
+        margin: 20px 10px;
+        font-size: 42px;
+        text-align: left;
+    }
+
+    .descripcion{
+        margin-right: 10px;
+        margin-left: 10px;
+        padding: 40px;
+    }
+
+    footer{
+        font-size: 19px;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #E4B1AB;
+    }
+
+    .footer1{
+        font-size: 19px;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #E4B1AB;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
     }
 }
