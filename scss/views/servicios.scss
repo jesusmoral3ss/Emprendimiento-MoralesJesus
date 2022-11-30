@@ -1,0 +1,54 @@
+div .pack1 .pack2 .pack3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pack1{
+    font-size: 22px;
+    padding: 75px;
+    width: 80%;
+    margin: 50px;
+    margin-left: 50px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(228, 52, 81);
+}
+
+.pack2{
+    font-size: 22px;
+    padding: 75px;
+    width: 80%;
+    margin: 50px;
+    margin-left: 50px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(228, 52, 81);
+}
+
+.pack3{
+    font-size: 22px;
+    padding: 75px;
+    width: 80%;
+    margin: 50px;
+    margin-left: 50px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(228, 52, 81);
+}
+
+@media (max-width:767px){
+    .pack1{
+        padding: 0px;
+        grid-template-columns: 0px;
+        font-size: 20px;
+    }
+
+    .pack2{
+        padding: 0px;
+        grid-template-columns: 0px;
+        font-size: 20px;
+    }
+
+    .pack3{
+        padding: 0px;
+        grid-template-columns: 0px;
+        font-size: 20px;
+    }
+}

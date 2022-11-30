@@ -1,0 +1,46 @@
+.nosotros{
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    margin: 50px 400px;
+    text-align: right;   
+}
+
+.footer1{
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #E4B1AB;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+main h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media (max-width:767px){
+    .titulo{
+        margin: 30px 30px;
+        font-size: 42px;
+        text-align: left;
+    }
+
+    .nosotros{
+        font-size: 16px;
+        display: grid;
+        grid-template-columns: 350px
+        }
+    
+
+    .nosotros{
+        margin-right: 20px;
+        margin-left: 0;
+        padding: 40px;
+        text-align: left;   
+        
+    }
+}

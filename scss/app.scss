@@ -1,0 +1,15 @@
+//Base
+@import "./base/colores.scss";
+@import "./base/reset.scss";
+@import "./base/tipografia.scss";
+
+//Layout
+@import "./layout/header.scss";
+@import "./layout/footer.scss";
+
+//Views
+@import "./views/inicio.scss";
+@import "./views/servicios.scss";
+@import "./views/sobre-nosotros.scss";
+@import "./views/trabajos-realizados.scss";
+@import "./views/contacto.scss";

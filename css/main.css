@@ -1,0 +1,230 @@
+.bg-light {
+  --bs-bg-opacity: 1;
+  background-color: #E4B1AB !important; }
+
+.container-fluid {
+  background-color: #CC444B; }
+
+.navbar-toggler {
+  border: 0px; }
+
+.nav-link {
+  color: black; }
+  .nav-link:hover {
+    transform: translateY(-2px);
+    transition: all 0.4 ease; }
+
+.titulo {
+  margin: 20px 40px;
+  font-size: 45px; }
+
+.descripcion {
+  font-size: 22px;
+  padding: 75px;
+  flex-basis: 80%;
+  margin: 50px;
+  margin-left: 100px;
+  color: white;
+  background-color: #e43451; }
+
+footer {
+  font-size: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #E4B1AB; }
+  footer .nosotros .footer1 {
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #E4B1AB;
+    position: absolute;
+    bottom: 0;
+    width: 100%; }
+
+@media (max-width: 767px) {
+  footer {
+    font-size: 19px;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E4B1AB; }
+  .footer1 {
+    font-size: 19px;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E4B1AB;
+    position: absolute;
+    bottom: 0;
+    width: 100%; } }
+
+body {
+  background-color: #E4B1AB; }
+
+.foto1 {
+  height: 90vh;
+  width: 100%;
+  align-items: center; }
+
+.titulo {
+  margin: 20px 40px;
+  font-size: 45px; }
+
+.descripcion {
+  font-size: 22px;
+  padding: 75px;
+  flex-basis: 80%;
+  margin: 50px;
+  margin-left: 100px;
+  color: white;
+  background-color: #e43451; }
+
+@media (max-width: 767px) {
+  .foto1 {
+    height: 25vh; }
+  .titulo {
+    margin: 10px 20px;
+    font-size: 30px;
+    text-align: center; }
+  .descripcion p {
+    font-size: 16px;
+    display: grid;
+    grid-template-columns: 350px; }
+  section {
+    display: flex;
+    flex-wrap: wrap; }
+  .titulo {
+    margin: 20px 10px;
+    font-size: 42px;
+    text-align: left; }
+  .descripcion {
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 40px; } }
+
+div .pack1 .pack2 .pack3 {
+  display: flex;
+  justify-content: space-between; }
+
+.pack1 {
+  font-size: 22px;
+  padding: 75px;
+  width: 80%;
+  margin: 50px;
+  margin-left: 50px;
+  color: black;
+  background-color: #e43451; }
+
+.pack2 {
+  font-size: 22px;
+  padding: 75px;
+  width: 80%;
+  margin: 50px;
+  margin-left: 50px;
+  color: black;
+  background-color: #e43451; }
+
+.pack3 {
+  font-size: 22px;
+  padding: 75px;
+  width: 80%;
+  margin: 50px;
+  margin-left: 50px;
+  color: black;
+  background-color: #e43451; }
+
+@media (max-width: 767px) {
+  .pack1 {
+    padding: 0px;
+    grid-template-columns: 0px;
+    font-size: 20px; }
+  .pack2 {
+    padding: 0px;
+    grid-template-columns: 0px;
+    font-size: 20px; }
+  .pack3 {
+    padding: 0px;
+    grid-template-columns: 0px;
+    font-size: 20px; } }
+
+.nosotros {
+  color: black;
+  font-size: 22px;
+  margin: 50px 400px;
+  text-align: right; }
+
+.footer1 {
+  font-size: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #E4B1AB;
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
+
+main h1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+@media (max-width: 767px) {
+  .titulo {
+    margin: 30px 30px;
+    font-size: 42px;
+    text-align: left; }
+  .nosotros {
+    font-size: 16px;
+    display: grid;
+    grid-template-columns: 350px; }
+  .nosotros {
+    margin-right: 20px;
+    margin-left: 0;
+    padding: 40px;
+    text-align: left; } }
+
+.img-trabajos {
+  display: flex;
+  flex-direction: column;
+  padding: 50px; }
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.titulo-consulta {
+  margin: 30px;
+  padding: 30px; }
+
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.tarjeta {
+  background-color: #CC444B;
+  width: 250px;
+  height: 250px;
+  margin: 35px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center; }
+
+.tarjeta2 {
+  background-color: #CC444B;
+  width: 250px;
+  height: 250px;
+  margin: 35px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center; }
+
+.tarjeta3 {
+  background-color: #CC444B;
+  width: 250px;
+  height: 250px;
+  margin: 35px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center; }

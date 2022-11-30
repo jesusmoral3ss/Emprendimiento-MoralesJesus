@@ -1,0 +1,37 @@
+.bg-light {
+    --bs-bg-opacity: 1;
+   background-color: #E4B1AB !important;
+}
+
+.container-fluid{
+    background-color: #CC444B;
+}
+
+.navbar-toggler{
+    border: 0px;
+}
+
+.nav-link{
+    color: black;
+    &:hover{
+        transform: translateY(-2px);
+        transition: all 0.4 ease;
+    }
+}
+
+.titulo{
+    margin: 20px 40px;
+    font-size: 45px;
+}
+
+.descripcion{
+    font-size: 22px;
+    padding: 75px;
+    flex-basis: 80%;
+    margin: 50px;
+    margin-left: 100px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(228, 52, 81);
+}
+
+

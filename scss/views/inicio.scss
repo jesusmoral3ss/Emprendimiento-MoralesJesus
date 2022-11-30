@@ -1,0 +1,57 @@
+body{
+    background-color: #E4B1AB;
+}
+
+.foto1{
+    height: 90vh;
+    width: 100%;
+    align-items: center;
+}
+.titulo{
+    margin: 20px 40px;
+    font-size: 45px;
+}
+
+.descripcion{
+    font-size: 22px;
+    padding: 75px;
+    flex-basis: 80%;
+    margin: 50px;
+    margin-left: 100px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(228, 52, 81);
+}
+
+@media (max-width:767px){
+    .foto1{
+        height: 25vh;
+    }
+    .titulo{
+        margin: 10px 20px;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .descripcion p{
+        font-size: 16px;
+        display: grid;
+        grid-template-columns: 350px
+    }
+
+    section{
+        display: flex;
+        flex-wrap: wrap;
+            
+    }
+    .titulo{
+        margin: 20px 10px;
+        font-size: 42px;
+        text-align: left;
+    }
+
+    .descripcion{
+        margin-right: 10px;
+        margin-left: 10px;
+        padding: 40px;
+    }
+}

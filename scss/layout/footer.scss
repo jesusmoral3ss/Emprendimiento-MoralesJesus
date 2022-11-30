@@ -1,0 +1,37 @@
+footer{
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #E4B1AB;
+    .nosotros .footer1{
+        font-size: 25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: #E4B1AB;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+}
+
+
+@media (max-width:767px){
+    footer{ 
+        font-size: 19px;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #E4B1AB;
+    }
+
+    .footer1{
+        font-size: 19px;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #E4B1AB;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+}
