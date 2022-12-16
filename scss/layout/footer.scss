@@ -1,37 +1,33 @@
 footer{
-    font-size: 25px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-color: #E4B1AB;
-    .nosotros .footer1{
-        font-size: 25px;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        background-color: #E4B1AB;
-        position: absolute;
-        bottom: 0;
-        width: 100%;
+    .contact-info{
+        background: #CC444B;
+    }
+    
+    .contact-info h4,
+    .contact-info ul,
+    .contact-info p{
+        text-align: center;
+        margin: 0 0 1rem 0;
+    }
+    
+    .contact-info ul{
+        list-style: none;
+        padding: 0;
+    }
+    
+    .contact-info ul li{
+        padding: 5px;
+    }
+    
+    .contact-info ul li .fa-solid,
+    .contact-info ul li{
+        padding: 0px 5px;
     }
 }
 
-
-@media (max-width:767px){
-    footer{ 
-        font-size: 19px;
-        flex-direction: column;
-        justify-content: center;
-        background-color: #E4B1AB;
-    }
-
-    .footer1{
-        font-size: 19px;
-        flex-direction: column;
-        justify-content: center;
-        background-color: #E4B1AB;
-        position: absolute;
-        bottom: 0;
-        width: 100%;
+@media (min-width:767px){
+    .contact-info ul li .fa-solid,
+    .contact-info ul li{
+        padding: 0px 10px;
     }
 }

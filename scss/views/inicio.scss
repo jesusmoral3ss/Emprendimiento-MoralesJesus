@@ -22,6 +22,8 @@ body{
     background-color: rgb(228, 52, 81);
 }
 
+
+
 @media (max-width:767px){
     .foto1{
         height: 25vh;
@@ -35,7 +37,6 @@ body{
     .descripcion p{
         font-size: 16px;
         display: grid;
-        grid-template-columns: 350px
     }
 
     section{
