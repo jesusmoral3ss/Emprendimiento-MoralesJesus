@@ -176,11 +176,14 @@ main h1 {
     padding: 40px;
     text-align: left; } }
 
-.img-trabajos {
-  display: flex;
-  flex-direction: column;
-  padding: 10px 20px;
-  margin: 10px 40px; }
+.img-carousel-custom {
+  width: 100%;
+  padding: 200px 200px;
+  object-fit: cover; }
+
+@media (max-width: 767px) {
+  .img-carousel-custom {
+    padding: 0px; } }
 
 * {
   box-sizing: border-box; }
